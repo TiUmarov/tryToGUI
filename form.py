@@ -4,9 +4,6 @@ from PIL import *
 from PIL import Image, ImageTk
 import os
 
-def button1():
-    tkMessageBox.showinfo('Thanks for like!')
-
 top = Tk()
 top.geometry('300x520')
 name = Label(top, text = 'Hi', background = 'green', fg = 'white').place(x = 30, y = 50)
